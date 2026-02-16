@@ -1,0 +1,1398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+	<AppTitle>Untitled Application</AppTitle>
+	<AppShortName>MyApp</AppShortName>
+	<Author>Author name</Author>
+	<Version>1.0</Version>
+	<DesignDeviceName>Apple iPhone 6</DesignDeviceName>
+	<Variables>[FNM001],[tile003n],[tile004n],[title001],[title001n],[title002],[title002n],[title003],[title003n],[title004],[title004n]</Variables>
+	<VariablesScanned>True</VariablesScanned>
+	<PageWidth>375</PageWidth>
+	<PageHeight>667</PageHeight>
+	<AutoSizeWidth>False</AutoSizeWidth>
+	<AutoSizeHeight>False</AutoSizeHeight>
+	<HideScrollbars>False</HideScrollbars>
+	<ResponsiveSize>False</ResponsiveSize>
+	<PublishPlatform>WebApp</PublishPlatform>
+	<EmptyBuildFolder>False</EmptyBuildFolder>
+	<AppIcon>C:\Users\User\Documents\VisualNeoWeb\Libraries\img\default-icon.png</AppIcon>
+	<LanguageCode>en</LanguageCode>
+	<DisplayMode>standalone</DisplayMode>
+	<ServiceWorker>Offline page</ServiceWorker>
+	<ThemeColor>#000000</ThemeColor>
+	<PwaScope>/</PwaScope>
+	<MobileOSTypes>[AndroidOS,iOS,WindowsPhoneOS]</MobileOSTypes>
+	<WindowState>normal</WindowState>
+	<TitleBar>True</TitleBar>
+	<Sizeable>True</Sizeable>
+	<MaximizeBtn>False</MaximizeBtn>
+	<MinimizeBtn>True</MinimizeBtn>
+	<SystemMenu>True</SystemMenu>
+	<ContextMenu>False</ContextMenu>
+	<AlwaysOnTop>False</AlwaysOnTop>
+	<ShowInTaskbar>True</ShowInTaskbar>
+	<SingleInstance>False</SingleInstance>
+	<ChromeKioskMode>False</ChromeKioskMode>
+	<Components>
+		<FunctionList name="Subroutines"/>
+		<LibraryList name="Libraries"/>
+		<PageList name="Main">
+			<Components>
+				<Page id="Home">
+					<style>background-color:#E0E0E0</style>
+					<pageenter>GetItem &quot;title001&quot; [title001]
+GetItem &quot;title002&quot; [title002]
+GetItem &quot;title003&quot; [title003]
+GetItem &quot;title004&quot; [title004]
+
+GetItem &quot;title001n&quot; [title001n]
+GetItem &quot;title002n&quot; [title002n]
+GetItem &quot;title003n&quot; [title003n]
+GetItem &quot;title004n&quot; [title004n]
+
+GetItem &quot;title005&quot; [title005]
+GetItem &quot;title006&quot; [title006]
+GetItem &quot;title007&quot; [title007]
+GetItem &quot;title008&quot; [title008]
+
+GetItem &quot;title005n&quot; [title005n]
+GetItem &quot;title006n&quot; [title006n]
+GetItem &quot;title007n&quot; [title007n]
+GetItem &quot;title008n&quot; [title008n]
+
+GetItem &quot;title009&quot; [title009]
+GetItem &quot;title010&quot; [title010]
+GetItem &quot;title011&quot; [title011]
+GetItem &quot;title012&quot; [title012]
+
+GetItem &quot;title009n&quot; [title009n]
+GetItem &quot;title010n&quot; [title010n]
+GetItem &quot;title011n&quot; [title011n]
+GetItem &quot;title012n&quot; [title012n]
+
+GetItem &quot;title013&quot; [title005]
+GetItem &quot;title014&quot; [title006]
+GetItem &quot;title015&quot; [title007]
+GetItem &quot;title016&quot; [title008]
+
+GetItem &quot;title013n&quot; [title013n]
+GetItem &quot;title014n&quot; [title014n]
+GetItem &quot;title015n&quot; [title015n]
+GetItem &quot;title016n&quot; [title016n]
+
+GetItem &quot;Atitle001&quot; [Atitle001]
+GetItem &quot;Atitle002&quot; [Atitle002]
+GetItem &quot;Atitle003&quot; [Atitle003]
+GetItem &quot;Atitle004&quot; [Atitle004]
+
+GetItem &quot;Atitle001n&quot; [Atitle001n]
+GetItem &quot;Atitle002n&quot; [Atitle002n]
+GetItem &quot;Atitle003n&quot; [Atitle003n]
+GetItem &quot;Atitle004n&quot; [Atitle004n]
+
+GetItem &quot;Atitle005&quot; [Atitle005]
+GetItem &quot;Atitle006&quot; [Atitle006]
+GetItem &quot;Atitle007&quot; [Atitle007]
+GetItem &quot;Atitle008&quot; [Atitle008]
+
+GetItem &quot;Atitle005n&quot; [Atitle005n]
+GetItem &quot;Atitle006n&quot; [Atitle006n]
+GetItem &quot;Atitle007n&quot; [Atitle007n]
+GetItem &quot;Atitle008n&quot; [Atitle008n]
+
+GetItem &quot;Atitle009&quot; [Atitle009]
+GetItem &quot;Atitle010&quot; [Atitle010]
+GetItem &quot;Atitle011&quot; [Atitle011]
+GetItem &quot;Atitle012&quot; [Atitle012]
+
+GetItem &quot;Atitle009n&quot; [Atitle009n]
+GetItem &quot;Atitle010n&quot; [Atitle010n]
+GetItem &quot;Atitle011n&quot; [Atitle011n]
+GetItem &quot;Atitle012n&quot; [Atitle012n]
+
+GetItem &quot;Atitle013&quot; [Atitle005]
+GetItem &quot;Atitle014&quot; [Atitle006]
+GetItem &quot;Atitle015&quot; [Atitle007]
+GetItem &quot;Atitle016&quot; [Atitle008]
+
+GetItem &quot;Atitle013n&quot; [Atitle013n]
+GetItem &quot;Atitle014n&quot; [Atitle014n]
+GetItem &quot;Atitle015n&quot; [Atitle015n]
+GetItem &quot;Atitle016n&quot; [Atitle016n]
+
+
+
+GetItem &quot;main001n&quot; [main001n]
+GetItem &quot;main002n&quot; [main002n]
+GetItem &quot;main003n&quot; [main003n]
+GetItem &quot;main004n&quot; [main004n]</pageenter>
+					<Components>
+						<Headline id="Headline22">
+							<left>88px</left>
+							<top>6px</top>
+							<width>273px</width>
+							<height>41px</height>
+							<style>color:#008080;text-align:center</style>
+							<text>Tiles v1.1-001</text>
+						</Headline>
+						<Headline id="Headline23">
+							<left>7px</left>
+							<top>50px</top>
+							<width>218px</width>
+							<height>41px</height>
+							<style>color:#008080;font-size:14pt;text-align:center</style>
+							<text>Create Retrieve Word andother Files Beta</text>
+						</Headline>
+						<Headline id="Headline25">
+							<left>135px</left>
+							<top>93px</top>
+							<width>110px</width>
+							<height>22px</height>
+							<style>color:#66B032;font-size:15pt</style>
+							<text>Main Index</text>
+						</Headline>
+						<TextInput id="TextInput106">
+							<left>44px</left>
+							<top>717px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>main001n</variable>
+							<change>SetItem &quot;main001n&quot; [main001n]</change>
+						</TextInput>
+						<TextInput id="TextInput122">
+							<left>205px</left>
+							<top>717px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>main002n</variable>
+							<change>SetItem &quot;main002n&quot; [main002n]</change>
+						</TextInput>
+						<PushButton id="PushButton66">
+							<left>13px</left>
+							<top>10px</top>
+							<width>77px</width>
+							<height>29px</height>
+							<style>color:#66B032;font-size:10pt</style>
+							<caption>Update</caption>
+							<click>ReloadApp</click>
+						</PushButton>
+						<TextInput id="TextInput69">
+							<left>44px</left>
+							<top>793px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>main003n</variable>
+							<change>SetItem &quot;main003n&quot; [main003n]</change>
+						</TextInput>
+						<TextInput id="TextInput70">
+							<left>205px</left>
+							<top>794px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>main004n</variable>
+							<change>SetItem &quot;main004n&quot; [main004n]</change>
+						</TextInput>
+						<PushButton id="PushButton2">
+							<left>4px</left>
+							<top>121px</top>
+							<width>180px</width>
+							<height>68px</height>
+							<caption>[main001n]</caption>
+							<click>GotoPage &quot;Homestuff&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton35">
+							<left>6px</left>
+							<top>193px</top>
+							<width>179px</width>
+							<height>63px</height>
+							<caption>[main003n]</caption>
+						</PushButton>
+						<PushButton id="PushButton42">
+							<left>190px</left>
+							<top>121px</top>
+							<width>180px</width>
+							<height>68px</height>
+							<caption>[main002n]</caption>
+							<click>GotoPage &quot;Workstuff&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton43">
+							<left>192px</left>
+							<top>193px</top>
+							<width>179px</width>
+							<height>63px</height>
+							<caption>[main004n]</caption>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Homestuff">
+					<style>background-color:#E0E0E0</style>
+					<pageenter>GetItem &quot;title001&quot; [title001]
+GetItem &quot;title002&quot; [title002]
+GetItem &quot;title003&quot; [title003]
+GetItem &quot;title004&quot; [title004]
+
+GetItem &quot;title001n&quot; [title001n]
+GetItem &quot;title002n&quot; [title002n]
+GetItem &quot;title003n&quot; [title003n]
+GetItem &quot;title004n&quot; [title004n]
+
+GetItem &quot;title005&quot; [title005]
+GetItem &quot;title006&quot; [title006]
+GetItem &quot;title007&quot; [title007]
+GetItem &quot;title008&quot; [title008]
+
+GetItem &quot;title005n&quot; [title005n]
+GetItem &quot;title006n&quot; [title006n]
+GetItem &quot;title007n&quot; [title007n]
+GetItem &quot;title008n&quot; [title008n]
+
+GetItem &quot;title009&quot; [title009]
+GetItem &quot;title010&quot; [title010]
+GetItem &quot;title011&quot; [title011]
+GetItem &quot;title012&quot; [title012]
+
+GetItem &quot;title009n&quot; [title009n]
+GetItem &quot;title010n&quot; [title010n]
+GetItem &quot;title011n&quot; [title011n]
+GetItem &quot;title012n&quot; [title012n]
+
+GetItem &quot;title013&quot; [title005]
+GetItem &quot;title014&quot; [title006]
+GetItem &quot;title015&quot; [title007]
+GetItem &quot;title016&quot; [title008]
+
+GetItem &quot;title013n&quot; [title013n]
+GetItem &quot;title014n&quot; [title014n]
+GetItem &quot;title015n&quot; [title015n]
+GetItem &quot;title016n&quot; [title016n]</pageenter>
+					<Components>
+						<Headline id="Headline1">
+							<left>76px</left>
+							<top>6px</top>
+							<width>218px</width>
+							<height>41px</height>
+							<style>color:#008080;text-align:center</style>
+							<text>Tiles v1.1</text>
+						</Headline>
+						<PushButton id="PushButton1">
+							<left>4px</left>
+							<top>121px</top>
+							<width>180px</width>
+							<height>68px</height>
+							<caption>[title001n]</caption>
+							<click>OpenURL &quot;[title001]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton3">
+							<left>6px</left>
+							<top>193px</top>
+							<width>179px</width>
+							<height>63px</height>
+							<caption>[title002n]</caption>
+							<click>OpenURL &quot;[title002]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton4">
+							<left>5px</left>
+							<top>259px</top>
+							<width>179px</width>
+							<height>60px</height>
+							<caption>[title003n]</caption>
+							<click>OpenURL &quot;[title003]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton5">
+							<left>4px</left>
+							<top>323px</top>
+							<width>178px</width>
+							<height>60px</height>
+							<caption>[title004n]</caption>
+							<click>OpenURL &quot;[title004]&quot;</click>
+						</PushButton>
+						<TextInput id="TextInput5">
+							<left>386px</left>
+							<top>157px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>title001</variable>
+							<change>SetItem &quot;title001&quot; [title001]</change>
+						</TextInput>
+						<TextInput id="TextInput10">
+							<left>386px</left>
+							<top>126px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>title001n</variable>
+							<change>SetItem &quot;title001n&quot; [title001n]</change>
+						</TextInput>
+						<TextInput id="TextInput6">
+							<left>386px</left>
+							<top>224px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>title002</variable>
+							<change>SetItem &quot;title002&quot; [title002]</change>
+						</TextInput>
+						<TextInput id="TextInput7">
+							<left>386px</left>
+							<top>193px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>title002n</variable>
+							<change>SetItem &quot;title002n&quot; [title002n]</change>
+						</TextInput>
+						<TextInput id="TextInput8">
+							<left>385px</left>
+							<top>290px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>title003</variable>
+							<change>SetItem &quot;title003&quot; [title003]</change>
+						</TextInput>
+						<TextInput id="TextInput9">
+							<left>385px</left>
+							<top>259px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>title003n</variable>
+							<change>SetItem &quot;title003n&quot; [title003n]</change>
+						</TextInput>
+						<TextInput id="TextInput11">
+							<left>383px</left>
+							<top>356px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>title004</variable>
+							<change>SetItem &quot;title004&quot; [title004]</change>
+						</TextInput>
+						<TextInput id="TextInput12">
+							<left>383px</left>
+							<top>325px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>title004n</variable>
+							<change>SetItem &quot;title004n&quot; [title004n]</change>
+						</TextInput>
+						<PushButton id="PushButton6">
+							<left>2px</left>
+							<top>388px</top>
+							<width>180px</width>
+							<height>68px</height>
+							<caption>[title005n]</caption>
+							<click>OpenURL &quot;[title005]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton7">
+							<left>4px</left>
+							<top>460px</top>
+							<width>179px</width>
+							<height>63px</height>
+							<caption>[title006n]</caption>
+							<click>OpenURL &quot;[title006]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton8">
+							<left>3px</left>
+							<top>526px</top>
+							<width>179px</width>
+							<height>60px</height>
+							<caption>[title007n]</caption>
+							<click>OpenURL &quot;[title007]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton9">
+							<left>2px</left>
+							<top>590px</top>
+							<width>178px</width>
+							<height>60px</height>
+							<caption>[title008n]</caption>
+							<click>OpenURL &quot;[title008]&quot;</click>
+						</PushButton>
+						<TextInput id="TextInput13">
+							<left>383px</left>
+							<top>422px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>title005</variable>
+							<change>SetItem &quot;title005&quot; [title005]</change>
+						</TextInput>
+						<TextInput id="TextInput14">
+							<left>383px</left>
+							<top>391px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>title005n</variable>
+							<change>SetItem &quot;title005n&quot; [title005n]</change>
+						</TextInput>
+						<TextInput id="TextInput15">
+							<left>383px</left>
+							<top>489px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>title006</variable>
+							<change>SetItem &quot;title006&quot; [title006]</change>
+						</TextInput>
+						<TextInput id="TextInput16">
+							<left>383px</left>
+							<top>458px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>title006n</variable>
+							<change>SetItem &quot;title006n&quot; [title006n]</change>
+						</TextInput>
+						<TextInput id="TextInput17">
+							<left>382px</left>
+							<top>555px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>title007</variable>
+							<change>SetItem &quot;title007&quot; [title007]</change>
+						</TextInput>
+						<TextInput id="TextInput18">
+							<left>382px</left>
+							<top>524px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>title007n</variable>
+							<change>SetItem &quot;title007n&quot; [title007n]</change>
+						</TextInput>
+						<TextInput id="TextInput19">
+							<left>381px</left>
+							<top>620px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>title008</variable>
+							<change>SetItem &quot;title008&quot; [title008]</change>
+						</TextInput>
+						<TextInput id="TextInput20">
+							<left>381px</left>
+							<top>589px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>title008n</variable>
+							<change>SetItem &quot;title008n&quot; [title008n]</change>
+						</TextInput>
+						<TextInput id="TextInput21">
+							<left>547px</left>
+							<top>158px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>title009</variable>
+							<change>SetItem &quot;title009&quot; [title009]</change>
+						</TextInput>
+						<TextInput id="TextInput22">
+							<left>547px</left>
+							<top>127px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>title009n</variable>
+							<change>SetItem &quot;title009n&quot; [title009n]</change>
+						</TextInput>
+						<TextInput id="TextInput23">
+							<left>547px</left>
+							<top>225px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>title010</variable>
+							<change>SetItem &quot;title010&quot; [title010]</change>
+						</TextInput>
+						<TextInput id="TextInput24">
+							<left>547px</left>
+							<top>194px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>title010n</variable>
+							<change>SetItem &quot;title010n&quot; [title010n]</change>
+						</TextInput>
+						<TextInput id="TextInput25">
+							<left>546px</left>
+							<top>291px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>title011</variable>
+							<change>SetItem &quot;title011&quot; [title011]</change>
+						</TextInput>
+						<TextInput id="TextInput26">
+							<left>546px</left>
+							<top>260px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>title011n</variable>
+							<change>SetItem &quot;title011n&quot; [title011n]</change>
+						</TextInput>
+						<TextInput id="TextInput27">
+							<left>544px</left>
+							<top>357px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>title012</variable>
+							<change>SetItem &quot;title012&quot; [title004]</change>
+						</TextInput>
+						<TextInput id="TextInput28">
+							<left>544px</left>
+							<top>326px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>title012n</variable>
+							<change>SetItem &quot;title012n&quot; [title012n]</change>
+						</TextInput>
+						<TextInput id="TextInput29">
+							<left>544px</left>
+							<top>423px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>title013</variable>
+							<change>SetItem &quot;title013&quot; [title013]</change>
+						</TextInput>
+						<TextInput id="TextInput30">
+							<left>544px</left>
+							<top>392px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>title013n</variable>
+							<change>SetItem &quot;title013n&quot; [title013n]</change>
+						</TextInput>
+						<TextInput id="TextInput31">
+							<left>544px</left>
+							<top>490px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>title014</variable>
+							<change>SetItem &quot;title014&quot; [title014]</change>
+						</TextInput>
+						<TextInput id="TextInput32">
+							<left>544px</left>
+							<top>459px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>title014n</variable>
+							<change>SetItem &quot;title014n&quot; [title014n]</change>
+						</TextInput>
+						<TextInput id="TextInput33">
+							<left>543px</left>
+							<top>556px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>title015</variable>
+							<change>SetItem &quot;title015&quot; [title015]</change>
+						</TextInput>
+						<TextInput id="TextInput34">
+							<left>543px</left>
+							<top>525px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>title015n</variable>
+							<change>SetItem &quot;title015n&quot; [title015n]</change>
+						</TextInput>
+						<TextInput id="TextInput35">
+							<left>542px</left>
+							<top>621px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>title016</variable>
+							<change>SetItem &quot;title016&quot; [title016]</change>
+						</TextInput>
+						<TextInput id="TextInput36">
+							<left>542px</left>
+							<top>590px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>title016n</variable>
+							<change>SetItem &quot;title016n&quot; [title016n]</change>
+						</TextInput>
+						<PushButton id="PushButton10">
+							<left>190px</left>
+							<top>121px</top>
+							<width>180px</width>
+							<height>68px</height>
+							<caption>[title009n]</caption>
+							<click>OpenURL &quot;[title009]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton11">
+							<left>192px</left>
+							<top>193px</top>
+							<width>179px</width>
+							<height>63px</height>
+							<caption>[title010n]</caption>
+							<click>OpenURL &quot;[title010]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton12">
+							<left>191px</left>
+							<top>259px</top>
+							<width>179px</width>
+							<height>60px</height>
+							<caption>[title011n]</caption>
+							<click>OpenURL &quot;[title011]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton13">
+							<left>190px</left>
+							<top>323px</top>
+							<width>178px</width>
+							<height>60px</height>
+							<caption>[title012n]</caption>
+							<click>OpenURL &quot;[title012]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton14">
+							<left>188px</left>
+							<top>388px</top>
+							<width>180px</width>
+							<height>68px</height>
+							<caption>[title013n]</caption>
+							<click>OpenURL &quot;[title013]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton15">
+							<left>190px</left>
+							<top>460px</top>
+							<width>179px</width>
+							<height>63px</height>
+							<caption>[title014n]</caption>
+							<click>OpenURL &quot;[title014]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton16">
+							<left>189px</left>
+							<top>526px</top>
+							<width>179px</width>
+							<height>60px</height>
+							<caption>[title015n]</caption>
+							<click>OpenURL &quot;[title015]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton17">
+							<left>188px</left>
+							<top>590px</top>
+							<width>178px</width>
+							<height>60px</height>
+							<caption>[title016n]</caption>
+							<click>OpenURL &quot;[title016]&quot;</click>
+						</PushButton>
+						<Headline id="Headline18">
+							<left>7px</left>
+							<top>50px</top>
+							<width>218px</width>
+							<height>41px</height>
+							<style>color:#008080;font-size:14pt;text-align:center</style>
+							<text>Create Retrieve Word andother Files Beta</text>
+						</Headline>
+						<Headline id="Headline20">
+							<left>135px</left>
+							<top>93px</top>
+							<width>110px</width>
+							<height>22px</height>
+							<style>color:#66B032;font-size:15pt</style>
+							<text>Home Stuff</text>
+						</Headline>
+						<PushButton id="PushButton34">
+							<left>13px</left>
+							<top>10px</top>
+							<width>77px</width>
+							<height>29px</height>
+							<style>color:#66B032;font-size:10pt</style>
+							<caption>Update</caption>
+							<click>ReloadApp</click>
+						</PushButton>
+						<PushButton id="PushButton36">
+							<left>281px</left>
+							<top>13px</top>
+							<width>77px</width>
+							<height>29px</height>
+							<style>color:#66B032;font-size:10pt</style>
+							<caption>Home</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Workstuff">
+					<style>background-color:#E0E0E0</style>
+					<Components>
+						<Headline id="Headline26">
+							<left>76px</left>
+							<top>6px</top>
+							<width>218px</width>
+							<height>41px</height>
+							<style>color:#008080;text-align:center</style>
+							<text>Tiles v1.1</text>
+						</Headline>
+						<Headline id="Headline27">
+							<left>7px</left>
+							<top>50px</top>
+							<width>218px</width>
+							<height>41px</height>
+							<style>color:#008080;font-size:14pt;text-align:center</style>
+							<text>Create Retrieve Word andother Files Beta</text>
+						</Headline>
+						<Headline id="Headline28">
+							<left>135px</left>
+							<top>93px</top>
+							<width>110px</width>
+							<height>22px</height>
+							<style>color:#66B032;font-size:15pt</style>
+							<text>Work Stuff</text>
+						</Headline>
+						<PushButton id="PushButton72">
+							<left>13px</left>
+							<top>10px</top>
+							<width>77px</width>
+							<height>29px</height>
+							<style>color:#66B032;font-size:10pt</style>
+							<caption>Update</caption>
+							<click>ReloadApp</click>
+						</PushButton>
+						<PushButton id="PushButton73">
+							<left>281px</left>
+							<top>13px</top>
+							<width>77px</width>
+							<height>29px</height>
+							<style>color:#66B032;font-size:10pt</style>
+							<caption>Home</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton37">
+							<left>4px</left>
+							<top>121px</top>
+							<width>180px</width>
+							<height>68px</height>
+							<caption>[Atitle001n]</caption>
+							<click>OpenURL &quot;[Atitle001]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton38">
+							<left>6px</left>
+							<top>193px</top>
+							<width>179px</width>
+							<height>63px</height>
+							<caption>[Atitle002n]</caption>
+							<click>OpenURL &quot;[Atitle002]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton39">
+							<left>5px</left>
+							<top>259px</top>
+							<width>179px</width>
+							<height>60px</height>
+							<caption>[Atitle003n]</caption>
+							<click>OpenURL &quot;[Atitle003]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton40">
+							<left>4px</left>
+							<top>323px</top>
+							<width>178px</width>
+							<height>60px</height>
+							<caption>[Atitle004n]</caption>
+							<click>OpenURL &quot;[Atitle004]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton41">
+							<left>2px</left>
+							<top>388px</top>
+							<width>180px</width>
+							<height>68px</height>
+							<caption>[Atitle005n]</caption>
+							<click>OpenURL &quot;[Atitle005]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton44">
+							<left>4px</left>
+							<top>460px</top>
+							<width>179px</width>
+							<height>63px</height>
+							<caption>[Atitle006n]</caption>
+							<click>OpenURL &quot;[Atitle006]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton45">
+							<left>3px</left>
+							<top>526px</top>
+							<width>179px</width>
+							<height>60px</height>
+							<caption>[Atitle007n]</caption>
+							<click>OpenURL &quot;[Atitle007]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton46">
+							<left>2px</left>
+							<top>590px</top>
+							<width>178px</width>
+							<height>60px</height>
+							<caption>[Atitle008n]</caption>
+							<click>OpenURL &quot;[Atitle008]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton47">
+							<left>190px</left>
+							<top>121px</top>
+							<width>180px</width>
+							<height>68px</height>
+							<caption>[Atitle009n]</caption>
+							<click>OpenURL &quot;[Atitle009]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton48">
+							<left>192px</left>
+							<top>193px</top>
+							<width>179px</width>
+							<height>63px</height>
+							<caption>[Atitle010n]</caption>
+							<click>OpenURL &quot;[Atitle010]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton49">
+							<left>191px</left>
+							<top>259px</top>
+							<width>179px</width>
+							<height>60px</height>
+							<caption>[Atitle011n]</caption>
+							<click>OpenURL &quot;[Atitle011]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton50">
+							<left>190px</left>
+							<top>323px</top>
+							<width>178px</width>
+							<height>60px</height>
+							<caption>[Atitle012n]</caption>
+							<click>OpenURL &quot;[Atitle012]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton51">
+							<left>188px</left>
+							<top>388px</top>
+							<width>180px</width>
+							<height>68px</height>
+							<caption>[Atitle013n]</caption>
+							<click>OpenURL &quot;[Atitle013]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton52">
+							<left>190px</left>
+							<top>460px</top>
+							<width>179px</width>
+							<height>63px</height>
+							<caption>[Atitle014n]</caption>
+							<click>OpenURL &quot;[Atitle014]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton53">
+							<left>189px</left>
+							<top>526px</top>
+							<width>179px</width>
+							<height>60px</height>
+							<caption>[Atitle015n]</caption>
+							<click>OpenURL &quot;[Atitle015]&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton54">
+							<left>188px</left>
+							<top>590px</top>
+							<width>178px</width>
+							<height>60px</height>
+							<caption>[Atitle016n]</caption>
+							<click>OpenURL &quot;[Atitle016]&quot;</click>
+						</PushButton>
+						<TextInput id="TextInput71">
+							<left>386px</left>
+							<top>157px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>Atitle001</variable>
+							<change>SetItem &quot;Atitle001&quot; [Atitle001]</change>
+						</TextInput>
+						<TextInput id="TextInput72">
+							<left>386px</left>
+							<top>126px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>Atitle001n</variable>
+							<change>SetItem &quot;Atitle001n&quot; [Atitle001n]</change>
+						</TextInput>
+						<TextInput id="TextInput73">
+							<left>386px</left>
+							<top>224px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>Atitle002</variable>
+							<change>SetItem &quot;Atitle002&quot; [Atitle002]</change>
+						</TextInput>
+						<TextInput id="TextInput74">
+							<left>386px</left>
+							<top>193px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>Atitle002n</variable>
+							<change>SetItem &quot;Atitle002n&quot; [Atitle002n]</change>
+						</TextInput>
+						<TextInput id="TextInput75">
+							<left>385px</left>
+							<top>290px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>Atitle003</variable>
+							<change>SetItem &quot;Atitle003&quot; [Atitle003]</change>
+						</TextInput>
+						<TextInput id="TextInput76">
+							<left>385px</left>
+							<top>259px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>Atitle003n</variable>
+							<change>SetItem &quot;Atitle003n&quot; [Atitle003n]</change>
+						</TextInput>
+						<TextInput id="TextInput77">
+							<left>383px</left>
+							<top>356px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>Atitle004</variable>
+							<change>SetItem &quot;Atitle004&quot; [Atitle004]</change>
+						</TextInput>
+						<TextInput id="TextInput78">
+							<left>383px</left>
+							<top>325px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>Atitle004n</variable>
+							<change>SetItem &quot;Atitle004n&quot; [Atitle004n]</change>
+						</TextInput>
+						<TextInput id="TextInput79">
+							<left>383px</left>
+							<top>422px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>Atitle005</variable>
+							<change>SetItem &quot;Atitle005&quot; [Atitle005]</change>
+						</TextInput>
+						<TextInput id="TextInput80">
+							<left>383px</left>
+							<top>391px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>Atitle005n</variable>
+							<change>SetItem &quot;Atitle005n&quot; [Atitle005n]</change>
+						</TextInput>
+						<TextInput id="TextInput81">
+							<left>383px</left>
+							<top>489px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>Atitle006</variable>
+							<change>SetItem &quot;Atitle006&quot; [Atitle006]</change>
+						</TextInput>
+						<TextInput id="TextInput82">
+							<left>383px</left>
+							<top>458px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>Atitle006n</variable>
+							<change>SetItem &quot;Atitle006n&quot; [Atitle006n]</change>
+						</TextInput>
+						<TextInput id="TextInput83">
+							<left>382px</left>
+							<top>555px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>Atitle007</variable>
+							<change>SetItem &quot;Atitle007&quot; [Atitle007]</change>
+						</TextInput>
+						<TextInput id="TextInput84">
+							<left>382px</left>
+							<top>524px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>Atitle007n</variable>
+							<change>SetItem &quot;Atitle007n&quot; [Atitle007n]</change>
+						</TextInput>
+						<TextInput id="TextInput85">
+							<left>381px</left>
+							<top>620px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>Atitle008</variable>
+							<change>SetItem &quot;Atitle008&quot; [Atitle008]</change>
+						</TextInput>
+						<TextInput id="TextInput86">
+							<left>381px</left>
+							<top>589px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>Atitle008n</variable>
+							<change>SetItem &quot;Atitle008n&quot; [Atitle008n]</change>
+						</TextInput>
+						<TextInput id="TextInput87">
+							<left>547px</left>
+							<top>158px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>Atitle009</variable>
+							<change>SetItem &quot;Atitle009&quot; [Atitle009]</change>
+						</TextInput>
+						<TextInput id="TextInput88">
+							<left>547px</left>
+							<top>127px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>Atitle009n</variable>
+							<change>SetItem &quot;Atitle009n&quot; [Atitle009n]</change>
+						</TextInput>
+						<TextInput id="TextInput89">
+							<left>547px</left>
+							<top>225px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>Atitle010</variable>
+							<change>SetItem &quot;Atitle010&quot; [Atitle010]</change>
+						</TextInput>
+						<TextInput id="TextInput90">
+							<left>547px</left>
+							<top>194px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>Atitle010n</variable>
+							<change>SetItem &quot;Atitle010n&quot; [Atitle010n]</change>
+						</TextInput>
+						<TextInput id="TextInput91">
+							<left>546px</left>
+							<top>291px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>Atitle011</variable>
+							<change>SetItem &quot;Atitle011&quot; [Atitle011]</change>
+						</TextInput>
+						<TextInput id="TextInput92">
+							<left>546px</left>
+							<top>260px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>Atitle011n</variable>
+							<change>SetItem &quot;Atitle011n&quot; [Atitle011n]</change>
+						</TextInput>
+						<TextInput id="TextInput93">
+							<left>544px</left>
+							<top>357px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>Atitle012</variable>
+							<change>SetItem &quot;Atitle012&quot; [Atitle004]</change>
+						</TextInput>
+						<TextInput id="TextInput94">
+							<left>544px</left>
+							<top>326px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>Atitle012n</variable>
+							<change>SetItem &quot;Atitle012n&quot; [Atitle012n]</change>
+						</TextInput>
+						<TextInput id="TextInput95">
+							<left>544px</left>
+							<top>423px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>Atitle013</variable>
+							<change>SetItem &quot;Atitle013&quot; [Atitle013]</change>
+						</TextInput>
+						<TextInput id="TextInput96">
+							<left>544px</left>
+							<top>392px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>Atitle013n</variable>
+							<change>SetItem &quot;Atitle013n&quot; [Atitle013n]</change>
+						</TextInput>
+						<TextInput id="TextInput97">
+							<left>544px</left>
+							<top>490px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>Atitle014</variable>
+							<change>SetItem &quot;Atitle014&quot; [Atitle014]</change>
+						</TextInput>
+						<TextInput id="TextInput98">
+							<left>544px</left>
+							<top>459px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>Atitle014n</variable>
+							<change>SetItem &quot;Atitle014n&quot; [Atitle014n]</change>
+						</TextInput>
+						<TextInput id="TextInput99">
+							<left>543px</left>
+							<top>556px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>Atitle015</variable>
+							<change>SetItem &quot;Atitle015&quot; [Atitle015]</change>
+						</TextInput>
+						<TextInput id="TextInput100">
+							<left>543px</left>
+							<top>525px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>Atitle015n</variable>
+							<change>SetItem &quot;Atitle015n&quot; [Atitle015n]</change>
+						</TextInput>
+						<TextInput id="TextInput101">
+							<left>542px</left>
+							<top>621px</top>
+							<width>150px</width>
+							<height>29px</height>
+							<variable>Atitle016</variable>
+							<change>SetItem &quot;Atitle016&quot; [Atitle016]</change>
+						</TextInput>
+						<TextInput id="TextInput102">
+							<left>542px</left>
+							<top>590px</top>
+							<width>151px</width>
+							<height>29px</height>
+							<variable>Atitle016n</variable>
+							<change>SetItem &quot;Atitle016n&quot; [Atitle016n]</change>
+						</TextInput>
+					</Components>
+				</Page>
+				<Page id="Templates">
+					<style>background-color:#E0E0E0</style>
+					<Components>
+						<Headline id="Headline2">
+							<left>76px</left>
+							<top>20px</top>
+							<width>218px</width>
+							<height>41px</height>
+							<style>color:#008080;text-align:center</style>
+							<text>Tiles v1.1</text>
+						</Headline>
+					</Components>
+				</Page>
+				<Page id="Template001">
+					<style>background-color:#E0E0E0</style>
+					<Components>
+						<Headline id="Headline3">
+							<left>18px</left>
+							<top>20px</top>
+							<width>338px</width>
+							<height>42px</height>
+							<style>color:#008080;text-align:center</style>
+							<text>Template 001</text>
+						</Headline>
+						<Container id="Container1">
+							<left>22px</left>
+							<top>68px</top>
+							<width>333px</width>
+							<height>555px</height>
+							<style>background-color:#E6E6FA;border-style:solid;border-width:1px</style>
+							<Components>
+								<Headline id="Headline5">
+									<left>4px</left>
+									<top>7px</top>
+									<width>85px</width>
+									<height>18px</height>
+									<style>color:#008080;font-size:8pt;text-align:left</style>
+									<text>Main Tile Group:</text>
+								</Headline>
+								<Headline id="Headline6">
+									<left>88px</left>
+									<top>7px</top>
+									<width>85px</width>
+									<height>18px</height>
+									<style>color:#008080;font-size:8pt;text-align:left</style>
+									<text>Health</text>
+								</Headline>
+								<Headline id="Headline7">
+									<left>4px</left>
+									<top>21px</top>
+									<width>85px</width>
+									<height>18px</height>
+									<style>color:#008080;font-size:8pt;text-align:left</style>
+									<text>Sub Tile Group:</text>
+								</Headline>
+								<Headline id="Headline8">
+									<left>88px</left>
+									<top>21px</top>
+									<width>85px</width>
+									<height>18px</height>
+									<style>color:#008080;font-size:8pt;text-align:left</style>
+									<text>Health Food</text>
+								</Headline>
+								<Headline id="Headline9">
+									<left>4px</left>
+									<top>35px</top>
+									<width>85px</width>
+									<height>18px</height>
+									<style>color:#008080;font-size:8pt;text-align:left</style>
+									<text>2nd sub Group:</text>
+								</Headline>
+								<Headline id="Headline10">
+									<left>88px</left>
+									<top>35px</top>
+									<width>147px</width>
+									<height>18px</height>
+									<style>color:#008080;font-size:8pt;text-align:left</style>
+									<text>Health do and donts</text>
+								</Headline>
+								<Headline id="Headline11">
+									<left>4px</left>
+									<top>50px</top>
+									<width>85px</width>
+									<height>18px</height>
+									<style>color:#008080;font-size:8pt;text-align:left</style>
+									<text>Tile Name:</text>
+								</Headline>
+								<Headline id="Headline12">
+									<left>88px</left>
+									<top>50px</top>
+									<width>147px</width>
+									<height>18px</height>
+									<style>color:#008080;font-size:8pt;text-align:left</style>
+									<text>Foods not to mix</text>
+								</Headline>
+								<Headline id="Headline13">
+									<left>83px</left>
+									<top>72px</top>
+									<width>147px</width>
+									<height>18px</height>
+									<style>color:#008080;font-size:12pt;font-weight:bold;text-align:center</style>
+									<text>Foods not to mix</text>
+								</Headline>
+								<TextArea id="TextArea1">
+									<left>9px</left>
+									<top>90px</top>
+									<width>317px</width>
+									<height>472px</height>
+									<style>background-color:#E6E6FA</style>
+									<variable>FNM001</variable>
+									<change>SetItem &quot;FNM001&quot; [FNM001]</change>
+								</TextArea>
+							</Components>
+						</Container>
+						<Headline id="Headline4">
+							<left>25px</left>
+							<top>645px</top>
+							<width>248px</width>
+							<height>19px</height>
+							<style>color:#008080;font-size:8pt;text-align:center</style>
+							<text>Rolling Document Newest to top</text>
+						</Headline>
+						<Pager id="Pager2">
+							<left>209px</left>
+							<top>630px</top>
+							<width>148px</width>
+							<height>17px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoNextPage</nextclick>
+						</Pager>
+					</Components>
+				</Page>
+				<Page id="Template1setup">
+					<style>background-color:#E0E0E0</style>
+					<Components>
+						<Headline id="Headline14">
+							<left>18px</left>
+							<top>20px</top>
+							<width>338px</width>
+							<height>42px</height>
+							<style>color:#008080;text-align:center</style>
+							<text>New Tile</text>
+						</Headline>
+						<Container id="Container2">
+							<left>22px</left>
+							<top>68px</top>
+							<width>333px</width>
+							<height>556px</height>
+							<style>background-color:#E6E6FA;border-style:solid;border-width:1px</style>
+							<Components>
+								<Headline id="Headline15">
+									<left>4px</left>
+									<top>9px</top>
+									<width>85px</width>
+									<height>18px</height>
+									<style>color:#008080;font-size:15pt;text-align:left</style>
+									<text>Main Tile Group:</text>
+								</Headline>
+								<Headline id="Headline17">
+									<left>4px</left>
+									<top>38px</top>
+									<width>85px</width>
+									<height>18px</height>
+									<style>color:#008080;font-size:15pt;text-align:left</style>
+									<text>Sub Tile Group:</text>
+								</Headline>
+								<Headline id="Headline19">
+									<left>4px</left>
+									<top>65px</top>
+									<width>85px</width>
+									<height>24px</height>
+									<style>color:#008080;font-size:15pt;text-align:left</style>
+									<text>2nd sub Group:</text>
+								</Headline>
+								<Headline id="Headline21">
+									<left>4px</left>
+									<top>93px</top>
+									<width>106px</width>
+									<height>23px</height>
+									<style>color:#008080;font-size:15pt;text-align:left</style>
+									<text>Tile Name:</text>
+								</Headline>
+								<TextInput id="TextInput1">
+									<left>125px</left>
+									<top>5px</top>
+									<width>188px</width>
+									<height>25px</height>
+								</TextInput>
+								<Combobox id="Combobox1">
+									<left>127px</left>
+									<top>125px</top>
+									<width>185px</width>
+									<height>33px</height>
+									<items>Template 001,Template 002,Template 002 1 of 2,Template 002 2 of 2</items>
+									<multi_select>False</multi_select>
+								</Combobox>
+								<Headline id="Headline16">
+									<left>5px</left>
+									<top>127px</top>
+									<width>106px</width>
+									<height>23px</height>
+									<style>color:#008080;font-size:15pt;text-align:left</style>
+									<text>Template</text>
+								</Headline>
+							</Components>
+						</Container>
+						<Headline id="Headline24">
+							<left>18px</left>
+							<top>640px</top>
+							<width>168px</width>
+							<height>19px</height>
+							<style>color:#008080;font-size:8pt;text-align:center</style>
+							<text>Rolling Document Newest to top</text>
+						</Headline>
+						<TextInput id="TextInput2">
+							<left>148px</left>
+							<top>102px</top>
+							<width>188px</width>
+							<height>25px</height>
+						</TextInput>
+						<TextInput id="TextInput3">
+							<left>148px</left>
+							<top>130px</top>
+							<width>188px</width>
+							<height>25px</height>
+						</TextInput>
+						<TextInput id="TextInput4">
+							<left>148px</left>
+							<top>160px</top>
+							<width>188px</width>
+							<height>25px</height>
+						</TextInput>
+						<Pager id="Pager1">
+							<left>209px</left>
+							<top>630px</top>
+							<width>148px</width>
+							<height>17px</height>
+							<prev_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-left&quot;&gt;&lt;/span&gt;</prev_caption>
+							<next_caption>&lt;span class=&quot;glyphicon glyphicon-arrow-right&quot;&gt;&lt;/span&gt;</next_caption>
+							<prevclick>GotoPrevPage</prevclick>
+							<nextclick>GotoNextPage</nextclick>
+						</Pager>
+					</Components>
+				</Page>
+			</Components>
+		</PageList>
+		<PageList name="Master">
+			<Components>
+				<Page id="MasterPage"/>
+			</Components>
+		</PageList>
+		<PageList name="Dialog">
+			<Components>
+				<Page id="NewDialog">
+					<Components>
+						<DialogContainer id="DialogContainer1">
+							<left>0px</left>
+							<top>0px</top>
+							<width>667px</width>
+							<height>375px</height>
+							<close_button>False</close_button>
+							<kind>custom</kind>
+						</DialogContainer>
+					</Components>
+				</Page>
+			</Components>
+		</PageList>
+	</Components>
+</Application>
