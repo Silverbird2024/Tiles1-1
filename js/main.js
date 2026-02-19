@@ -118,6 +118,10 @@ $scope.TextInput69_change = function() {localStorage.setItem("main003n",$App.mai
 $scope.TextInput70_change = function() {localStorage.setItem("main004n",$App.main004n);};
 $scope.PushButton2_click = function() {$scope.GotoPage( "Homestuff" );};
 $scope.PushButton42_click = function() {$scope.GotoPage( "Workstuff" );};
+$scope.PushButton19_click = function() {window.open("https://1drv.ms/w/c/469a0daef3bc98bf/IQDgYsgvHWTCQYMyATuMNZaLASvRmY_MAbD3M182asTzI_Y?e=hAA6oX", "_blank");};
+$scope.PushButton20_click = function() {window.open("https://docs.google.com/document/d/1BNM-fq4cMxHD3yehjqIEM6EH9jRQ41Jj/edit?usp=sharing&ouid=104619871169274147266&rtpof=true&sd=true", "_blank");};
+$scope.PushButton21_click = function() {window.open("https://docs.google.com/document/d/1lr5kfwkxyfzEQbFb33d2RMm8jB-06wI3AKyxgCigFNQ/edit?usp=sharing", "_blank");};
+$scope.PushButton18_click = function() {window.open($App.index, "_blank");};
 });
 NeoApp.controller("Homestuff_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
