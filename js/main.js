@@ -185,13 +185,11 @@ $scope.TextInput39_change = function() {localStorage.setItem("main002n",$App.mai
 $scope.PushButton22_click = function() {window.document.location.reload();};
 $scope.TextInput40_change = function() {localStorage.setItem("main003n",$App.main003n);};
 $scope.TextInput41_change = function() {localStorage.setItem("main004n",$App.main004n);};
-$scope.PushButton23_click = function() {$scope.GotoPage( "Homestuff" );};
-$scope.PushButton25_click = function() {$scope.GotoPage( "Workstuff" );};
-$scope.PushButton27_click = function() {window.open("https://1drv.ms/w/c/469a0daef3bc98bf/IQDgYsgvHWTCQYMyATuMNZaLASvRmY_MAbD3M182asTzI_Y?e=hAA6oX", "_blank");};
 $scope.PushButton28_click = function() {window.open("https://docs.google.com/document/d/1BNM-fq4cMxHD3yehjqIEM6EH9jRQ41Jj/edit?usp=sharing&ouid=104619871169274147266&rtpof=true&sd=true", "_blank");};
-$scope.PushButton29_click = function() {window.open("https://docs.google.com/document/d/1lr5kfwkxyfzEQbFb33d2RMm8jB-06wI3AKyxgCigFNQ/edit?usp=sharing", "_blank");};
+$scope.PushButton29_click = function() {window.open("https://docs.google.com/document/d/1l1LwdrI389IkshZi5PvqsbOQ1sGH1jc4KQhwiaSrOT8/edit?usp=drive_link", "_blank");};
 $scope.PushButton30_click = function() {window.open($App.index, "_blank");};
 $scope.TextArea6_change = function() {localStorage.setItem("Linkslocal",$App.Linkslocal);};
+$scope.PushButton23_click = function() {window.open($App.ULR, "_blank");};
 });
 NeoApp.controller("Home_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
