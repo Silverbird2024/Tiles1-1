@@ -185,7 +185,7 @@ $scope.TextInput39_change = function() {localStorage.setItem("main002n",$App.mai
 $scope.PushButton22_click = function() {window.document.location.reload();};
 $scope.TextInput40_change = function() {localStorage.setItem("main003n",$App.main003n);};
 $scope.TextInput41_change = function() {localStorage.setItem("main004n",$App.main004n);};
-$scope.PushButton28_click = function() {window.open("https://docs.google.com/document/d/1BNM-fq4cMxHD3yehjqIEM6EH9jRQ41Jj/edit?usp=sharing&ouid=104619871169274147266&rtpof=true&sd=true", "_blank");};
+$scope.PushButton28_click = function() {window.open("https://docs.google.com/spreadsheets/d/1yH4hxeeXomX5TJwtCVx8UPkLApnQW_WqpkYeY_mYvUk/edit?usp=sharing", "_blank");};
 $scope.PushButton29_click = function() {window.open("https://docs.google.com/document/d/1l1LwdrI389IkshZi5PvqsbOQ1sGH1jc4KQhwiaSrOT8/edit?usp=drive_link", "_blank");};
 $scope.PushButton30_click = function() {window.open($App.index, "_blank");};
 $scope.TextArea6_change = function() {localStorage.setItem("Linkslocal",$App.Linkslocal);};
