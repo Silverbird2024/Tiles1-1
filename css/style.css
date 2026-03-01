@@ -6,7 +6,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline29 {position:absolute;left:87px;top:6px;width:191px;height:41px;margin:0;color:#008080;text-align:center}
 #Headline30 {position:absolute;left:5px;top:50px;width:218px;height:41px;margin:0;color:#008080;font-size:14pt;text-align:center}
 #Headline31 {position:absolute;left:225px;top:76px;width:110px;height:22px;margin:0;color:#66B032;font-size:15pt}
-#PushButton22 {position:absolute;left:11px;top:10px;width:77px;height:29px;margin:0;color:#66B032;font-size:10pt}
+#PushButton22 {position:absolute;left:11px;top:10px;width:69px;height:29px;margin:0;color:#66B032;font-size:10pt}
 #PushButton28 {position:absolute;left:33px;top:103px;width:311px;height:51px;margin:0;color:#ADFF2F;background-color:#008000}
 #PushButton29 {position:absolute;left:33px;top:156px;width:311px;height:53px;margin:0;color:#ADFF2F;background-color:#008000}
 #TextInput42 {position:absolute;left:37px;top:253px;width:267px;height:34px;margin:0;}
@@ -20,6 +20,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #TextInput110 {position:absolute;left:277px;top:16px;width:76px;height:20px;margin:0;font-size:8pt}
 #PushButton99 {position:absolute;left:16px;top:295px;width:63px;height:27px;margin:0;font-size:8pt}
 #PushButton101 {position:absolute;left:16px;top:620px;width:98px;height:37px;margin:0;}
+#PushButton102 {position:absolute;left:309px;top:623px;width:45px;height:33px;margin:0;color:#0392CE}
 #Homestuff {position:relative;width:100%;height:100%;overflow:auto;;background-color:#BCFFF2}
 #PushButton1 {position:absolute;left:4px;top:121px;width:180px;height:68px;margin:0;color:#000080;font-weight:600;background-color:#F0FFFF}
 #PushButton3 {position:absolute;left:6px;top:193px;width:179px;height:63px;margin:0;color:#000080;font-weight:600;background-color:#F0FFFF}
@@ -243,6 +244,10 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Templates {position:relative;width:100%;height:100%;overflow:auto;;background-color:#E0E0E0}
 #Pager7 {position:absolute;left:239px;top:65px;width:103px;height:27px;margin:0;}
 #Headline2 {position:absolute;left:87px;top:6px;width:191px;height:41px;margin:0;color:#008080;text-align:center}
+#VERSION {position:relative;width:100%;height:100%;overflow:auto;;background-color:#E0E0E0}
+#PushButton103 {position:absolute;left:281px;top:13px;width:77px;height:29px;margin:0;color:#66B032;font-size:10pt}
+#Headline41 {position:absolute;left:87px;top:6px;width:191px;height:41px;margin:0;color:#008080;text-align:center}
+#TextArea4 {position:absolute;left:13px;top:108px;width:346px;height:544px;margin:0;}
 #Template001 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#E0E0E0}
 #Container1 {position:absolute;left:22px;top:68px;width:333px;height:555px;margin:0;background-color:#E6E6FA;border-style:solid;border-width:1px;overflow-x:hidden;overflow-y:hidden}
 #Headline5 {position:absolute;left:4px;top:7px;width:85px;height:18px;margin:0;color:#008080;font-size:8pt;text-align:left}
