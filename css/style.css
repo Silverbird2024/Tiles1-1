@@ -100,6 +100,9 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton36 {position:absolute;left:281px;top:13px;width:77px;height:29px;margin:0;color:#66B032;font-size:10pt}
 #Pager5 {position:absolute;left:263px;top:49px;width:103px;height:27px;margin:0;}
 #Headline1 {position:absolute;left:87px;top:6px;width:191px;height:41px;margin:0;color:#008080;text-align:center}
+#Headline68 {position:absolute;left:26px;top:659px;width:196px;height:22px;margin:0;color:#66B032;font-size:15pt}
+#TextArea6 {position:absolute;left:8px;top:693px;width:353px;height:782px;margin:0;}
+#PushButton187 {position:absolute;left:210px;top:659px;width:35px;height:31px;margin:0;}
 #TILES {position:relative;width:100%;height:100%;overflow:auto;;background-color:#BCFFF2}
 #PushButton153 {position:absolute;left:3px;top:121px;width:180px;height:68px;margin:0;color:#000080;font-weight:600;background-color:#F0FFFF}
 #PushButton175 {position:absolute;left:4px;top:259px;width:179px;height:60px;margin:0;color:#000080;font-weight:600;background-color:#F0FFFF}
@@ -143,8 +146,9 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #TextInput245 {position:absolute;left:387px;top:459px;width:151px;height:29px;margin:0;color:#000080}
 #TextInput246 {position:absolute;left:547px;top:491px;width:150px;height:29px;margin:0;color:#000080}
 #TextInput247 {position:absolute;left:547px;top:460px;width:151px;height:29px;margin:0;color:#000080}
-#Headline32 {position:absolute;left:129px;top:536px;width:110px;height:22px;margin:0;color:#66B032;font-size:15pt}
+#Headline32 {position:absolute;left:59px;top:535px;width:115px;height:22px;margin:0;color:#66B032;font-size:15pt}
 #TextArea5 {position:absolute;left:9px;top:569px;width:353px;height:782px;margin:0;}
+#PushButton188 {position:absolute;left:192px;top:536px;width:70px;height:28px;margin:0;}
 #Tentinastorm {position:relative;width:100%;height:100%;overflow:auto;;background-color:#FFFFFF}
 #PushButton113 {position:absolute;left:4px;top:121px;width:180px;height:68px;margin:0;color:#000080;font-weight:600;background-color:#F0FFFF}
 #PushButton114 {position:absolute;left:6px;top:193px;width:179px;height:63px;margin:0;color:#000080;font-weight:600;background-color:#F0FFFF}
@@ -361,6 +365,10 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #TextInput109 {position:absolute;left:542px;top:590px;width:151px;height:29px;margin:0;}
 #Pager11 {position:absolute;left:261px;top:52px;width:103px;height:27px;margin:0;}
 #Headline36 {position:absolute;left:87px;top:6px;width:191px;height:41px;margin:0;color:#008080;text-align:center}
+#TextArea8 {position:absolute;left:8px;top:693px;width:353px;height:782px;margin:0;}
+#Headline69 {position:absolute;left:22px;top:660px;width:196px;height:22px;margin:0;color:#66B032;font-size:15pt}
+#Pager17 {position:absolute;left:248px;top:659px;width:97px;height:21px;margin:0;}
+#PushButton186 {position:absolute;left:207px;top:659px;width:35px;height:31px;margin:0;}
 #Workstuff-C {position:relative;width:100%;height:100%;overflow:auto;;background-color:#E0E0E0}
 #Headline59 {position:absolute;left:7px;top:50px;width:218px;height:41px;margin:0;color:#008080;font-size:14pt;text-align:center}
 #Headline60 {position:absolute;left:60px;top:95px;width:256px;height:22px;margin:0;color:#66B032;font-size:15pt}
@@ -416,6 +424,10 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #TextInput189 {position:absolute;left:542px;top:590px;width:151px;height:29px;margin:0;}
 #Pager14 {position:absolute;left:261px;top:52px;width:103px;height:27px;margin:0;}
 #Headline61 {position:absolute;left:87px;top:6px;width:191px;height:41px;margin:0;color:#008080;text-align:center}
+#TextArea9 {position:absolute;left:8px;top:693px;width:353px;height:782px;margin:0;}
+#Headline70 {position:absolute;left:10px;top:659px;width:196px;height:22px;margin:0;color:#66B032;font-size:15pt}
+#Pager18 {position:absolute;left:248px;top:659px;width:97px;height:21px;margin:0;}
+#PushButton154 {position:absolute;left:206px;top:659px;width:35px;height:31px;margin:0;}
 #Workstuff-D {position:relative;width:100%;height:100%;overflow:auto;;background-color:#E0E0E0}
 #Headline62 {position:absolute;left:7px;top:50px;width:218px;height:41px;margin:0;color:#008080;font-size:14pt;text-align:center}
 #Headline63 {position:absolute;left:60px;top:98px;width:254px;height:22px;margin:0;color:#66B032;font-size:15pt}
@@ -471,6 +483,10 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #TextInput221 {position:absolute;left:542px;top:590px;width:151px;height:29px;margin:0;}
 #Pager15 {position:absolute;left:261px;top:52px;width:103px;height:27px;margin:0;}
 #Headline64 {position:absolute;left:87px;top:6px;width:191px;height:41px;margin:0;color:#008080;text-align:center}
+#Headline71 {position:absolute;left:19px;top:662px;width:196px;height:22px;margin:0;color:#66B032;font-size:15pt}
+#TextArea10 {position:absolute;left:8px;top:693px;width:353px;height:782px;margin:0;}
+#Pager19 {position:absolute;left:248px;top:659px;width:97px;height:21px;margin:0;}
+#PushButton30 {position:absolute;left:210px;top:659px;width:35px;height:31px;margin:0;}
 #Home {position:relative;width:100%;height:100%;overflow:auto;;background-color:#E0E0E0}
 #Headline23 {position:absolute;left:5px;top:50px;width:218px;height:41px;margin:0;color:#008080;font-size:14pt;text-align:center}
 #Headline25 {position:absolute;left:133px;top:93px;width:110px;height:22px;margin:0;color:#66B032;font-size:15pt}
